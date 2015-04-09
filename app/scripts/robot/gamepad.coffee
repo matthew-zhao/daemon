@@ -10,5 +10,5 @@ angular.module('daemon.gamepad', ['ansible'])
       gamepads = navigator.getGamepads()
       ansible.send(gamepads)
 
-    $interval(update, 100)
+    $interval(update, 50)
   ])

@@ -15,6 +15,7 @@ App = angular.module('daemon', [
   'daemon.menubar'
   'daemon.sensors'
   'debug'
+  'robot'
 ])
 
 App.config([
