@@ -1,3 +1,5 @@
-.well(ng-controller="RobotStatusCtrl")
-  p This is a placeholder for robot status page.
-  p {{info}}
+.well(ng-controller="RobotStatusCtrl") Robot Status
+	div.battery(ng-repeat)
+	div.wirelessStrength(ng-repeat)
+  p Battery: {{info.battery}}
+  p Wireless Strength: {{info.wireless_strength}}
